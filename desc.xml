@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plugin name="guichetunique" version="0.1" active="1">
+  <author>Florestan Bredow</author>
+  <label>guichetunique</label>
+  <desc>permet d'afficher le nom de la personne au guichet unique (a partir du calendrier du GU</desc>
+</plugin>
