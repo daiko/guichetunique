@@ -2,7 +2,6 @@
 
 include('../libs/ical.class.php');
 
-
 $ical = new icaltest();
 $ical->parse("http://webdav.cdrflorac.fr/guichet-unique.ics");
 
@@ -40,7 +39,7 @@ foreach ($ical->get_sort_event_list() as $events) {
 						&& ($curTime <= $events["DTEND"]["unixtime"])) {
 			// trouvé !
 			$format = 'H:i:s';
-			$data = utf8_decode($events['SUMMARY']);
+			$data = $events['SUMMARY'];
       $isFind = true;
 
       break;
