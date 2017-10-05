@@ -48,7 +48,7 @@ foreach ($ical->get_sort_event_list() as $events) {
 	}
 }
 
-if(!$isFind) 
+if(!$isFind)
 	$data = "Fermé";
 
 print($data);
